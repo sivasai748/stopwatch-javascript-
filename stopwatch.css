@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#cont{
+    border: 2px solid black;
+    border-radius: 50px;
+    width:400px;
+    text-align: center;
+    padding:10px;
+    background-color: gainsboro;
+    font-family:monospace
+   
+}
+button{
+    cursor: pointer;
+}
+.start{
+    background-color: green;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    width:50px;
+}
+.stop{
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    width:50px;
+}
+.reset{
+    background-color: blueviolet;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+    width:50px;
+}
